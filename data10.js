@@ -69,7 +69,7 @@ const allData = require("./allData")
     }
     /////////////////////////////////////////////////////////////
 
-      const grades = (fname , lname , city , age , id, avg) => {
+      const grades = (fname , lname , city , age , id,) => {
       const allData = loadData()
   
     for(var i = 0; i < grades.length; i++) {
